@@ -1,0 +1,26 @@
+.container {
+    width: 100vw;
+    display: flex;
+}
+
+.menu-bar {
+    width: 0%;
+    border: 1px orange solid;
+}
+
+.title-bar,
+.content-bar {
+    width: 50%;
+    border: 1px orange solid;
+}
+
+.title-bar {
+    height: 100vh;
+
+    position: fixed;
+}
+
+.content-bar {
+    overflow-y: scroll;
+    margin-left: 50%;
+}
